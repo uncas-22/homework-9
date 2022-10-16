@@ -5,27 +5,36 @@ public class Main {
         array [0] = 1;
         array [1] = 2;
         array [2] = 3;
-        int element0 = array [0];
-        int element1 = array [1];
-        int element2 = array [2];
-        System.out.println(array [0]);
-        System.out.println(array [1]);
-        System.out.println(array [2]);
+
         System.out.println("дробный массив");
         float [] arraySecond = {1.57f, 7.654f, 9.986f};
-        arraySecond [0] = 1.57f;
-        arraySecond [1] = 7.654f;
-        arraySecond [2] = 9.986f;
-        System.out.println(arraySecond [0]);
-        System.out.println(arraySecond [1]);
-        System.out.println(arraySecond [2]);
         System.out.println("произвольный массив");
-        int [] arrayThird = {555, 222, 777};
-        arrayThird [0] = 555;
-        arrayThird [1] = 222;
-        arrayThird [2] = 777;
-                System.out.println(arrayThird [0]);
-        System.out.println(arrayThird [1]);
-        System.out.println(arrayThird [2]);
+        char [] arrayThird = {'a', 'b', 'c'};
+
+        System.out.println("Урок 9. Задача 1.2");
+        for (int i = 0; i < array.length; i++) {
+            System.out.print(array[i]);
+            if (i != array.length - 1) {
+                System.out.print(", ");
+            }
+        }
+        System.out.println();
+        for (int i = 0; i < arraySecond.length; i++) {
+            System.out.print(arraySecond[i]);
+            if (i != arraySecond.length - 1) {
+                System.out.print(", ");
+            }
+        }
+        System.out.println();
+        for (int i = 0; i < arrayThird.length; i++) {
+            System.out.print(arrayThird[i]);
+            if (i != arrayThird.length - 1) {
+                System.out.print(", ");
+            }
+        }
+        System.out.println();
+        System.out.println("Урок 9. Задача 1.3 - в обратном порядке");// в обратном порядке
+
+        System.out.println("Урок 9. Задача 1.4 - четные числа");//четные числа
     }
 }
