@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Урок 9. Массивы. Задача 1.1");
+        System.out.println("Урок 9. Массивы. Задача 1");
         int [] array = new int [3];
         array [0] = 1;
         array [1] = 2;
@@ -11,7 +11,7 @@ public class Main {
         System.out.println("произвольный массив");
         char [] arrayThird = {'a', 'b', 'c'};
 
-        System.out.println("Урок 9. Задача 1.2");
+        System.out.println("Урок 9. Задача 2");
         for (int i = 0; i < array.length; i++) {
             System.out.print(array[i]);
             if (i != array.length - 1) {
@@ -33,7 +33,7 @@ public class Main {
             }
         }
         System.out.println();
-        System.out.println("Урок 9. Задача 1.3 - в обратном порядке");// в обратном порядке
+        System.out.println("Урок 9. Задача 3 - в обратном порядке");// в обратном порядке
         for (int i = array.length - 1; i >= 0 ; i--) {
             System.out.print(array[i]);
             if (i != 0) {
@@ -55,7 +55,7 @@ public class Main {
             }
         }
         System.out.println();
-        System.out.println("Урок 9. Задача 1.4 - четные числа");//четные числа
+        System.out.println("Урок 9. Задача 4 - четные числа");//четные числа
         int [] array2 = {1, 2, 3};
         for (int d = 0; d < array2.length; d++) {
             System.out.print(" ");
